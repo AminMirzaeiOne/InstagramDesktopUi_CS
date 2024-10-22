@@ -24,5 +24,11 @@ namespace InstagramDesktopUi
         {
             InitializeComponent();
         }
+
+        private void textSearch_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            txtSearch.Focus();
+        }
+
     }
 }
