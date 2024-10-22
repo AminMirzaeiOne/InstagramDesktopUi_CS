@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:InstagramDesktopUi.Controls"
              mc:Ignorable="d" 
              Name="profile">
-    <Border>
+    <Border HorizontalAlignment="Center" BorderThickness="1.5" CornerRadius="100">
             
     </Border>
 </UserControl>
