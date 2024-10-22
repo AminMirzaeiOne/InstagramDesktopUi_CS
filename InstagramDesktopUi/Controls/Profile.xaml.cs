@@ -21,6 +21,7 @@ namespace InstagramDesktopUi.Controls
     public partial class Profile : UserControl
     {
         public static readonly DependencyProperty PaddingNumProperty = DependencyProperty.Register("PaddingNum", typeof(int), typeof(Profile));
+        public static readonly DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(int), typeof(Profile));
 
 
         public Profile()
