@@ -24,6 +24,11 @@ namespace InstagramDesktopUi.Controls
         public static readonly DependencyProperty SizeProperty = DependencyProperty.Register("Size", typeof(int), typeof(Profile));
         public static readonly DependencyProperty SourceProperty = DependencyProperty.Register("Source", typeof(ImageSource), typeof(Profile));
 
+        public int PaddingNum
+        {
+            get { return (int)GetValue(PaddingNumProperty); }
+            set { SetValue(PaddingNumProperty, value); }
+        }
 
         public Profile()
         {
