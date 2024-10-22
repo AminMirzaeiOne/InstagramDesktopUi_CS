@@ -8,6 +8,9 @@
         mc:Ignorable="d" FontFamily="Cambria" Background="#FFFFFF"
         Height="710" Width="1210" MinWidth="930" MinHeight="710">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
