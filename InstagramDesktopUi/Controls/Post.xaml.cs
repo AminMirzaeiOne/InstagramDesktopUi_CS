@@ -21,6 +21,8 @@ namespace InstagramDesktopUi.Controls
     public partial class Post : UserControl
     {
         public static readonly DependencyProperty PostSourceProperty = DependencyProperty.Register("PostSource", typeof(ImageSource), typeof(Post));
+        public static readonly DependencyProperty ProfileSourceProperty = DependencyProperty.Register("ProfileSource", typeof(ImageSource), typeof(Post));
+
 
         public Post()
         {
