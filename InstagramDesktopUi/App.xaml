@@ -10,6 +10,13 @@
             <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="FontWeight" Value="SemiBold" />
         </Style>
-        
+
+        <Style x:Key="secondaryText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#9a9a9a" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0 5 0 0" />
+        </Style>
+
     </Application.Resources>
 </Application>
