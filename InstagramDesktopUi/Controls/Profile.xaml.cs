@@ -30,6 +30,12 @@ namespace InstagramDesktopUi.Controls
             set { SetValue(PaddingNumProperty, value); }
         }
 
+        public int Size
+        {
+            get { return (int)GetValue(SizeProperty); }
+            set { SetValue(SizeProperty, value); }
+        }
+
         public Profile()
         {
             InitializeComponent();
