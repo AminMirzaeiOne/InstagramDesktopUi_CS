@@ -50,6 +50,12 @@ namespace InstagramDesktopUi.Controls
             set { SetValue(LikesProperty, value); }
         }
 
+        public string Comments
+        {
+            get { return (string)GetValue(CommentsProperty); }
+            set { SetValue(CommentsProperty, value); }
+        }
+
         public Post()
         {
             InitializeComponent();
