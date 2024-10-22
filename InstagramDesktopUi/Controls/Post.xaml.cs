@@ -26,6 +26,11 @@ namespace InstagramDesktopUi.Controls
         public static readonly DependencyProperty LikesProperty = DependencyProperty.Register("Likes", typeof(string), typeof(Post));
         public static readonly DependencyProperty CommentsProperty = DependencyProperty.Register("Comments", typeof(string), typeof(Post));
 
+        public ImageSource PostSource
+        {
+            get { return (ImageSource)GetValue(PostSourceProperty); }
+            set { SetValue(PostSourceProperty, value); }
+        }
 
         public Post()
         {
