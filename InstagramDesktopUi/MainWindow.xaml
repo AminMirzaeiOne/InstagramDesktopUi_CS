@@ -17,7 +17,96 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
-        
+
+        <!--Main Menu-->
+        <StackPanel Grid.RowSpan="2" Background="#F3F3F3">
+            <Image Source="/Images/instagram.png" Height="28" Margin="0 25 0 25"/>
+
+            <uc:Profile Size="100" Source="/Images/user.jpg" PaddingNum="5"/>
+
+            <TextBlock Text="Mohsen Alavi" TextAlignment="Center" FontSize="20" FontWeight="SemiBold" Margin="0 10 0 5"/>
+            <TextBlock Text="@mohsen29" TextAlignment="Center" FontSize="14" Foreground="#9a9a9a"/>
+
+            <Grid Margin="15 25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="6.9k" Style="{StaticResource mainText}"/>
+                    <TextBlock Text="Followers" Style="{StaticResource secondaryText}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="34" Style="{StaticResource mainText}"/>
+                    <TextBlock Text="Posts" Style="{StaticResource secondaryText}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                    <TextBlock Text="112" Style="{StaticResource mainText}"/>
+                    <TextBlock Text="Following" Style="{StaticResource secondaryText}"/>
+                </StackPanel>
+            </Grid>
+
+            <Button Style="{StaticResource activeMenuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/home.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Feed" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/explore.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Explore" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/notifications.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Notifications" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/message.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Messages" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/direct.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Direct" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/stats.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Stats" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/setting.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Settings" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Separator Margin="40 15" Background="#cacaca" Opacity="0.6"/>
+
+            <Button Style="{StaticResource menuButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/logout.png" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Logout" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+
     </Grid>
 </Window>
