@@ -26,5 +26,11 @@
             </LinearGradientBrush>
         </Border.BorderBrush>
 
+        <Ellipse Height="{Binding Path=Size,ElementName=profile}" Width="{Binding Path=Size,ElementName=profile}">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding Path=Source,ElementName=profile}"/>
+            </Ellipse.Fill>
+        </Ellipse>
+
     </Border>
 </UserControl>
