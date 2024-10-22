@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:InstagramDesktopUi.Controls"
              mc:Ignorable="d" 
              Name="profile">
-    <Grid>
+    <Border>
             
-    </Grid>
+    </Border>
 </UserControl>
