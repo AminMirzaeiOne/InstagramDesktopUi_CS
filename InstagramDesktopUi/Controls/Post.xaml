@@ -12,6 +12,27 @@
                 <ImageBrush Stretch="Fill" ImageSource="{Binding Path=PostSource,ElementName=post}"/>
             </Border.Background>
         </Border>
-        
+
+        <Grid>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <uc:Profile Size="25" Source="{Binding Path=ProfileSource,ElementName=post}" PaddingNum="1"/>
+                <TextBlock Text="{Binding Path=ProfileName,ElementName=post}" Margin="8 0 0 0" FontSize="14" FontWeight="SemiBold" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 5 0">
+                <Button Style="{StaticResource roundButton}" Margin="0 0 2 0">
+                    <Image Source="../Images/like.png" Width="23"/>
+                </Button>
+
+                <TextBlock Text="{Binding Path=Likes,ElementName=post}" VerticalAlignment="Center" />
+
+                <Button Style="{StaticResource roundButton}" Margin="8 0 2 0">
+                    <Image Source="../Images/comment.png" Width="21"/>
+                </Button>
+
+                <TextBlock Text="{Binding Path=Comments,ElementName=post}" VerticalAlignment="Center" />
+            </StackPanel>
+        </Grid>
+
     </StackPanel>
 </UserControl>
