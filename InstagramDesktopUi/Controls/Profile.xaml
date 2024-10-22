@@ -18,6 +18,13 @@
                 </Style.Triggers>
             </Style>
         </Border.Style>
-        
+
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#DB9F6B" Offset="0.9"/>
+                <GradientStop Color="#BE5C6F"/>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
     </Border>
 </UserControl>
