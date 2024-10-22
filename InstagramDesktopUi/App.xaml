@@ -56,5 +56,18 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="activeMenuButton" TargetType="Button" BasedOn="{StaticResource menuButton}">
+            <Setter Property="Foreground" Value="#C5436D" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderThickness="0 0 2 0" BorderBrush="#C5436D">
+                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>
