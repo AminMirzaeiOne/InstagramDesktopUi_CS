@@ -38,6 +38,12 @@ namespace InstagramDesktopUi.Controls
             set { SetValue(ProfileSourceProperty, value); }
         }
 
+        public string ProfileName
+        {
+            get { return (string)GetValue(ProfileNameProperty); }
+            set { SetValue(ProfileNameProperty, value); }
+        }
+
         public Post()
         {
             InitializeComponent();
