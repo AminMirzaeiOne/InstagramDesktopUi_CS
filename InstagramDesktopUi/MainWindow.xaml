@@ -22,10 +22,10 @@
         <StackPanel Grid.RowSpan="2" Background="#F3F3F3">
             <Image Source="/Images/instagram.png" Height="28" Margin="0 25 0 25"/>
 
-            <uc:Profile Size="100" Source="/Images/user.jpg" PaddingNum="5"/>
+            <uc:Profile Size="100" Source="/Images/AminMirzaeiProfile.png" PaddingNum="5"/>
 
-            <TextBlock Text="Mohsen Alavi" TextAlignment="Center" FontSize="20" FontWeight="SemiBold" Margin="0 10 0 5"/>
-            <TextBlock Text="@mohsen29" TextAlignment="Center" FontSize="14" Foreground="#9a9a9a"/>
+            <TextBlock Text="Amin Mirzaei" TextAlignment="Center" FontSize="20" FontWeight="SemiBold" Margin="0 10 0 5"/>
+            <TextBlock Text="@amin.reals" TextAlignment="Center" FontSize="14" Foreground="#9a9a9a"/>
 
             <Grid Margin="15 25">
                 <Grid.ColumnDefinitions>
@@ -180,14 +180,14 @@
             <WrapPanel>
 
                 <uc:Post ProfileName="John.Doe" Likes="6.2k" Comments="49" ProfileSource="/Images/p7.jpg" PostSource="/Images/q7.jpg"/>
-                <uc:Post ProfileName="Dom.Kelson" Likes="7.9k" Comments="10" ProfileSource="/Images/p4.jpg" PostSource="/Images/q8.jpg"/>
+                <uc:Post ProfileName="Bill Gates" Likes="7.9k" Comments="10" ProfileSource="/Images/p4.jpg" PostSource="/Images/q8.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="1.6k" Comments="21" ProfileSource="/Images/p7.jpg" PostSource="/Images/q9.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="8.1k" Comments="57" ProfileSource="/Images/p7.jpg" PostSource="/Images/q10.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="5.4k" Comments="61" ProfileSource="/Images/p7.jpg" PostSource="/Images/q6.jpg"/>
-                <uc:Post ProfileName="Dom.Kelson" Likes="1.5k" Comments="87" ProfileSource="/Images/p4.jpg" PostSource="/Images/q5.jpg"/>
-                <uc:Post ProfileName="Dom.Kelson" Likes="3.9k" Comments="43" ProfileSource="/Images/p4.jpg" PostSource="/Images/q4.jpg"/>
-                <uc:Post ProfileName="Dom.Kelson" Likes="9.1k" Comments="27" ProfileSource="/Images/p4.jpg" PostSource="/Images/q3.jpg"/>
-                <uc:Post ProfileName="Dom.Kelson" Likes="8.2k" Comments="68" ProfileSource="/Images/p4.jpg" PostSource="/Images/q2.jpg"/>
+                <uc:Post ProfileName="Bill Gates" Likes="1.5k" Comments="87" ProfileSource="/Images/p4.jpg" PostSource="/Images/q5.jpg"/>
+                <uc:Post ProfileName="Bill Gates" Likes="3.9k" Comments="43" ProfileSource="/Images/p4.jpg" PostSource="/Images/q4.jpg"/>
+                <uc:Post ProfileName="Bill Gates" Likes="9.1k" Comments="27" ProfileSource="/Images/p4.jpg" PostSource="/Images/q3.jpg"/>
+                <uc:Post ProfileName="Bill Gates" Likes="8.2k" Comments="68" ProfileSource="/Images/p4.jpg" PostSource="/Images/q2.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="6.7k" Comments="12" ProfileSource="/Images/p7.jpg" PostSource="/Images/q1.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="9.3k" Comments="65" ProfileSource="/Images/p7.jpg" PostSource="/Images/q11.jpg"/>
                 <uc:Post ProfileName="John.Doe" Likes="4.7k" Comments="23" ProfileSource="/Images/p7.jpg" PostSource="/Images/q12.jpg"/>
