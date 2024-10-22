@@ -44,6 +44,12 @@ namespace InstagramDesktopUi.Controls
             set { SetValue(ProfileNameProperty, value); }
         }
 
+        public string Likes
+        {
+            get { return (string)GetValue(LikesProperty); }
+            set { SetValue(LikesProperty, value); }
+        }
+
         public Post()
         {
             InitializeComponent();
