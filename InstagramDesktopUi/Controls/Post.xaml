@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:InstagramDesktopUi.Controls"
              xmlns:uc="clr-namespace:InstagramDesktopUi.Controls"
              mc:Ignorable="d" Name="post" Background="White">
-    <StackPanel>
+    <StackPanel Width="270" Margin="0 0 13 13">
             
     </StackPanel>
 </UserControl>
