@@ -175,6 +175,28 @@
             </Grid>
         </StackPanel>
 
+        <!--Posts-->
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Margin="35 0 35 10" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <WrapPanel>
+
+                <uc:Post ProfileName="John.Doe" Likes="6.2k" Comments="49" ProfileSource="/Images/p7.jpg" PostSource="/Images/q7.jpg"/>
+                <uc:Post ProfileName="Dom.Kelson" Likes="7.9k" Comments="10" ProfileSource="/Images/p4.jpg" PostSource="/Images/q8.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="1.6k" Comments="21" ProfileSource="/Images/p7.jpg" PostSource="/Images/q9.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="8.1k" Comments="57" ProfileSource="/Images/p7.jpg" PostSource="/Images/q10.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="5.4k" Comments="61" ProfileSource="/Images/p7.jpg" PostSource="/Images/q6.jpg"/>
+                <uc:Post ProfileName="Dom.Kelson" Likes="1.5k" Comments="87" ProfileSource="/Images/p4.jpg" PostSource="/Images/q5.jpg"/>
+                <uc:Post ProfileName="Dom.Kelson" Likes="3.9k" Comments="43" ProfileSource="/Images/p4.jpg" PostSource="/Images/q4.jpg"/>
+                <uc:Post ProfileName="Dom.Kelson" Likes="9.1k" Comments="27" ProfileSource="/Images/p4.jpg" PostSource="/Images/q3.jpg"/>
+                <uc:Post ProfileName="Dom.Kelson" Likes="8.2k" Comments="68" ProfileSource="/Images/p4.jpg" PostSource="/Images/q2.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="6.7k" Comments="12" ProfileSource="/Images/p7.jpg" PostSource="/Images/q1.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="9.3k" Comments="65" ProfileSource="/Images/p7.jpg" PostSource="/Images/q11.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="4.7k" Comments="23" ProfileSource="/Images/p7.jpg" PostSource="/Images/q12.jpg"/>
+                <uc:Post ProfileName="John.Doe" Likes="6.1k" Comments="47" ProfileSource="/Images/p7.jpg" PostSource="/Images/q13.jpg"/>
+
+            </WrapPanel>
+        </ScrollViewer>
+
+
 
     </Grid>
 </Window>
