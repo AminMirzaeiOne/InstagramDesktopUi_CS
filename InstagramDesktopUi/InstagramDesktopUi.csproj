@@ -96,7 +96,48 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\comment.png" />
+    <Resource Include="Images\direct.png" />
+    <Resource Include="Images\explore.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\instagram.png" />
+    <Resource Include="Images\leftArrow.png" />
+    <Resource Include="Images\like.png" />
+    <Resource Include="Images\logo.ico" />
+    <Resource Include="Images\logout.png" />
+    <Resource Include="Images\message.png" />
+    <Resource Include="Images\mini.png" />
+    <Resource Include="Images\notifications.png" />
+    <Resource Include="Images\p1.jpg" />
+    <Resource Include="Images\p2.jpg" />
+    <Resource Include="Images\p3.jpg" />
+    <Resource Include="Images\p4.jpg" />
+    <Resource Include="Images\p5.jpg" />
+    <Resource Include="Images\p6.jpg" />
+    <Resource Include="Images\p7.jpg" />
+    <Resource Include="Images\p8.jpg" />
+    <Resource Include="Images\p9.jpg" />
+    <Resource Include="Images\q1.jpg" />
+    <Resource Include="Images\q10.jpg" />
+    <Resource Include="Images\q11.jpg" />
+    <Resource Include="Images\q12.jpg" />
+    <Resource Include="Images\q13.jpg" />
+    <Resource Include="Images\q14.jpg" />
+    <Resource Include="Images\q2.jpg" />
+    <Resource Include="Images\q3.jpg" />
+    <Resource Include="Images\q4.jpg" />
+    <Resource Include="Images\q5.jpg" />
+    <Resource Include="Images\q6.jpg" />
+    <Resource Include="Images\q7.jpg" />
+    <Resource Include="Images\q8.jpg" />
+    <Resource Include="Images\q9.jpg" />
+    <Resource Include="Images\setting.png" />
+    <Resource Include="Images\stats.png" />
+    <Resource Include="Images\user.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
